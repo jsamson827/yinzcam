@@ -7,4 +7,6 @@ export interface User {
   avatar_url: string;
   followers_url: string;
   name: string;
+  repos_url: string
+  
   }
