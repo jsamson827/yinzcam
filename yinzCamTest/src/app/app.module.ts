@@ -9,6 +9,7 @@ import { UserListComponent } from './user-list/user-list.component';
 import { UserDetailComponent } from './user-detail/user-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { UserSearchComponent } from './user-search/user-search.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     UserListComponent,
     UserDetailComponent,
     MessagesComponent,
-    DashboardComponent
+    DashboardComponent,
+    UserSearchComponent
   ],
   imports: [
     BrowserModule,
